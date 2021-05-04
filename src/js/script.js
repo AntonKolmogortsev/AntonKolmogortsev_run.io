@@ -53,5 +53,7 @@ $(document).ready(function(){
       $('.overlay, #order').fadeIn('slow');
     });
   });
+
+  $('.feed-form').validate();
 });
 
