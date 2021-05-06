@@ -3,8 +3,8 @@ $(document).ready(function(){
   $('.carousel__inner').slick({
     speed: 2500,
     adaptiveHeight: true,
-    prevArrow: '<button type="button" class="slick-prev"><img src="../img/slidericons/left.svg"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="../img/slidericons/right.svg"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="img/slidericons/left.svg"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="img/slidericons/right.svg"></button>',
     responsive: [
         {
                     breakpoint: 992,
@@ -83,5 +83,7 @@ $(document).ready(function(){
   valideForms('#consultation-form');
   valideForms('#consultation form');
   valideForms('#order form');
+
+  $('input[name=phone]').mask("+7 (999) 999-99-99");
 });
 
