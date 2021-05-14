@@ -1,0 +1,117 @@
+@media(max-width: 1023px) {
+    .header {
+        justify-content: space-evenly;
+    }
+    .promo__wrapper {
+        align-items: center;
+    }
+}
+@media(max-width: 810px) {
+    .advantages__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .advantages__item {
+        margin-bottom: 20px;
+    }
+    .advantages__descr {
+        width: 382px;
+    }
+}
+@media(max-width: 778px) {
+    .title_left {
+        font-size: 24px;
+    }
+}
+@media(max-width: 703px) {
+    .header__official {
+        display: none;
+    }
+}
+@media(max-width: 668px) {
+    .catalog__tabs {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+@media(max-width: 520px) {
+    .promo__header {
+        font-size: 29px;
+    }
+    .promo__subheader {
+        font-size: 19px;
+    }
+}
+@media(max-width:517px) {
+    .title_left {
+        font-size: 16px;
+        text-align: center;
+    }
+    .consultation__descr {
+        font-size: 15px;
+        text-align: center;
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .button_submit {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+@media(max-width: 478px) {
+    .promo__wrapper {
+        margin-top: 50px;
+    }
+    .header__phone {
+        font-size: 12px;
+    }
+    .btnhead {
+        width: 110px;
+        font-size: 10px;
+    }
+    .header__logo img {
+        width: 80%;
+    }
+    .promo__subheader {
+        font-size: 17px;
+    }
+    .promo__icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .promo__icon {
+        width: 182px;
+        margin-bottom: 50px;
+        
+    }
+    .mbn {
+        margin-bottom: none;
+    }
+    .button_main {
+        width: 226px;
+        font-size: 15px;
+        margin-top: 40px;
+    }
+}
+@media(max-width: 400px) {
+    .advantages__descr {
+        width: 340px;
+    }
+    .slick-slide img {
+        width: 50%;
+    }
+    .catalog-item {
+        margin-left: 30px;
+    }
+    .catalog__tab {
+        margin-top: 25px;
+    }
+}
+   
+       
+
+    
+    
