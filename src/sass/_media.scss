@@ -138,8 +138,13 @@
     .slick-slide img {
         width: 100%;
     }
+    .item__content_active {
+        margin: 0 auto;
+        
+    }
     .catalog-item {
-        margin-left: 30px;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
     .catalog__tab {
         margin-top: 25px;
