@@ -70,8 +70,8 @@
     .promo__subheader {
         font-size: 19px;
     }
-    .reviews__text {
-        text-align: justify;
+    .reviews__descr {
+        width: 320px;
     }
 }
 @media(max-width:517px) {
@@ -127,8 +127,8 @@
         font-size: 15px;
         margin-top: 40px;
     }
-    .footer__info {
-        max-width: 100%;
+    .modal__close {
+        right: 10px;
     }
 }
 @media(max-width: 400px) {
